@@ -31,13 +31,13 @@ Este projeto é o back end de um aplicativo chamado motociclista consciente, que
 3.Instale as dependências:
    ```bash
   npm install
-
+ ```
 4.Inicie o servidor:
    ```bash
    node server.js
-
-Endpoints Principais
-Método	Rota	Descrição
+ ```
+## **Endpoints Principais**
+### Método	Rota	Descrição
 POST	/usuario/cadastro	Cadastrar um novo usuário
 POST	/usuario/login	Realizar login
 GET	/usuario/selecionarUsuarios	Listar todos os usuários
@@ -45,7 +45,8 @@ PUT	/usuario/editarSenha	Alterar a senha do usuário
 GET	/api-docs	Acessar a documentação Swagger
 Consulte a documentação completa no Swagger: http://localhost:8079/api-docs.
 
-Estrutura do Projeto
+## **Estrutura de pastas**
+```bash
 📂 nome-do-projeto
 ├── 📂 controllers     # Lógica dos endpoints
 ├── 📂 routes          # Definição das rotas
